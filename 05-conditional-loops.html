@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Started with JavaScript</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrap.cdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+    </style>
+</head>
+<body>
+
+<!---🔥🔥🔥🔥 start javascript 🔥🔥🔥🔥-->
+
+<script>
+    //const name = 'chris';
+    //const username = 'chrisoncode';
+
+    //if
+    //if (name === 'nick' || name === 'chris') {
+    //    alert('Hello!');
+    //} else if (name === 'holly') {
+    //    console.log('this is holly');
+    //} else {
+    //    console.log('not nick');
+    //}
+//==================================
+    //for loop
+    //const dogList = document.querySelector('.dog-list');
+    //const dogs = [
+    //    { name: 'bruce', type: 'chihuahua' },
+    //    { name: 'chance', type: 'bernese' },
+    //];
+
+    //for (let i = 0; i < dogs.length; i++) {
+        //grab the dog
+    //    const dog           = dogs[i];
+    //    const dogData       = document.createElement('div');
+    //    dogData.classList.add('jumbotron', 'text-center');
+    //    dogData.innerText   = `${dog.name} is a ${dog.type}`;
+    //    dogList.appendChild(dogData);
+    //}
+//==================================
+    //while loop
+    //let i = 0;
+    //do {
+        //grab the dog
+
+    //const dog = dogs[i];
+    //const dogData = document.createElement('div');
+    //dogData.classList.add('jumbotron', 'text-center');
+    //dogData.innerText = `${dog.name} is a ${dog.type}`;
+    //dogList.appendChild(dogData);
+
+    //i++;
+    //} while (i < dogs.length);
+//==================================
+    // for of iterator (the best one, NO syntax or plus-plus i+++)
+    for (let dog of dogs) {
+        const dogData       = document.createElement('div');
+        dogData.classList.add('jumbotron', 'text-center');
+        dogData.innerText   = `${dog.name} is a ${dog.type}`;
+        dogList.appendChild(dogData);
+    }
+
+    </script>
+</body>
+</html>
